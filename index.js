@@ -2,7 +2,7 @@
 const fs = require('fs'); // READ FILE READ FOLDER BIKIN FOLDER FILE
 const path = require('path')
 const { REST, Routes, MessageEmbed, Client, Events, Collection, GatewayIntentBits } = require('discord.js'); // 
-const { token, owner } = require('./config.json');
+const { token, id } = require('./config.json');
 
 // CONST
 const client = new Client({
@@ -31,7 +31,7 @@ fs.readdirSync("./commands").forEach((dirs) => {
 const rest = new REST().setToken(token)
 const slashCommandList = async () => {
 	try {
-		await rest.put(Routes.applicationCommands("1234521483276193792"), { body: commands })
+		await rest.put(Routes.applicationCommands(id), { body: commands })
 	} catch (error) {
 		console.log(error)
 	}

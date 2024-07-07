@@ -1,0 +1,33 @@
+{
+  "name": "r34.api",
+  "version": "1.6.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yokachi/r34.api.git"
+  },
+  "keywords": [
+    "api",
+    "hentai",
+    "hentai-api",
+    "nsfw",
+    "porn",
+    "porno",
+    "r34",
+    "rule34"
+  ],
+  "author": "Yokachi,Jules010209",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yokachi/r34.api/issues"
+  },
+  "homepage": "https://github.com/Yokachi/r34.api#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
