@@ -26,7 +26,7 @@ There are so many unfinished fiture
 - Skip
 - stop / pause
 
-this bot have a many fiture nsfw 
+This bot have a many fiture nsfw 
 - hentai
 - bdsm
 - gifs
