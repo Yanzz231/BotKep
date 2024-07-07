@@ -27,6 +27,7 @@ There are so many unfinished fiture
 - stop / pause
 
 This bot have a many fiture nsfw 
+- Music Fiture ( play, queue )
 - hentai
 - bdsm
 - gifs
